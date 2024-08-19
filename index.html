@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CSE 40771/60771 - Distributed Systems
+title: CSE 40771 - Distributed Systems
 classes: wide
 ---
 <!doctype html>
@@ -13,10 +13,16 @@ classes: wide
 <table>
 <tr>
 <td><img src=images/dthain-small.jpg>
-<td>Prof. Douglas Thain<br>Office Hours: Mon 2-4PM, Wed 1-3PM<br>Office: 384C Fitzpatrick Hall (Dept Office)
+<td>Prof. Douglas Thain<br>Office Hours: TBA<br>Office: 384C Fitzpatrick Hall (Dept Office)
+
+<tr>
+<td><img src=images/ngandawa-small.jpg>
+<td>TA: Nathan Gandawa<br>Office Hours: TBA<br>Office: CSE Undergraduate Commons
+
 <tr>
 <td><img src=images/tphung-small.jpg>
-<td>TA: Thanh Phung<br>Office Hours: Tue 3-5PM, Wed 3-5PM<br>Office: 150B Fitzpatrick Hall (Student Commons)
+<td>Guest Lecturer: Thanh Son Phung
+
 </table>
 
 <h2>Course Materials</h2>
@@ -24,10 +30,9 @@ classes: wide
 <ul>
 <li> <a href=syllabus.html>Syllabus</a>
 <li> <a href=https://www.distributed-systems.net/index.php/books/ds3/>Textbook: Distributed Systems, Third Edition</a>
-<li> <a href=readings.html>Readings for Graduate Students</a>
 <li> <a href=general>General Instructions for Assignments</a>
-<li> <a href=https://canvas.nd.edu/courses/57238>Course Canvas Page</a>
-<li> <a href=https://nd-cse.slack.com/archives/C04KJRTMA48>#distsys-sp23</a> Slack Channel
+<li> <a href=https://canvas.nd.edu/courses/103459>Course Canvas Page</a>
+<li> <a href=https://nd-cse.slack.com/archives/C07HFQ4DLAC>#distsys-fa24</a> Slack Channel
 </ul>
 
 <h2>Office Hours</h2>
@@ -37,8 +42,7 @@ If you prefer to talk via Zoom, please indicate that via slack or email,
 and we will dial into Zoom.
   
 <ul>
-<li> Prof. Thain: Mon 2-4PM Wed 1-3PM in 384C Fitzpatrick (CSE Main Office) <a href=https://notredame.zoom.us/j/98135137451>(zoom on request)</a>
-<li> Thanh Phung: Tue 3-5PM, Wed 3-5PM in 150B Fitzpatrick (CSE Student Commons) <a href=https://notredame.zoom.us/j/98135137451>(zoom on request)</a><br>
+<li> Prof. Thain: TBA in 384C Fitzpatrick (CSE Main Office)
 </ul>
 
 <h2>Course Schedule</h2>
@@ -49,161 +53,106 @@ td { border: 1px solid black;}
 
 <table>
 
-<th><td>Monday<td>Wednesday<td>Friday<td><a href=readings.html>Grad Reading Due Sun</a></th>
+<th><td>Monday<td>Wednesday<td>Friday</th>
 
 <tr>
-<td>Jan 16
+<td>Aug 6
 <td>
 <td>Intro and Purposes<br>Chapter 1
 <td>Architectures<br>Chapter 2
-<td><a href=papers/Waldo1997_Chapter_ANoteOnDistributedComputing.pdf>A Note on Distributed Computing</a>
 
 <tr>
-<td>Jan 23
+<td>Sep 2
 <td>Processes<br>Chapter 3<br>
 <td>Clients and Servers<br>Chapter 3<br><b><a href=a1>A1 Due: Measuring</a></b>
 <td>Server Clusters<br>Chapter 3
-<td><a href=papers/hotos15-paper-mcsherry.pdf>Scalability! COST?</a>
 
 <tr>
-<td>Jan 30
+<td>Sep 9
 <td>Communications<br>Chapter 4.1<br>
 <td>Remote Procedure Call<br>Chapter 4.2
 <td>Remote Procedure Call<br>Chapter 4.2
-<td><a href=https://doi.org/10.1109/CLUSTER.2013.6702617>Mercury RPC</a>
 
 <tr>
-<td>Feb 6
+<td>Sep 16
 <td>RPC Semantics<br>Chapter 8.3
 <td>State Management<br><br><b><a href=a2>A2 Due: RPC</a></b>  
 <td>Case Study: NFS<br>Chapter 2.4<br><a href=https://datatracker.ietf.org/doc/html/rfc1094>RFC 1094</a>
-<td><a href=papers/tango.pdf>Tango</a>
-
 
 <tr>
-<td>Feb 13
+<td>Sep 23
 <td>Messaging<br>Chapter 4.3
 <td>Naming<br>Chapter 5.1-5.2<br><b><a href=a3>A3 Due: Persistence</a></b>
-<td>Chord<br>Chapter 5.3<br>
-<td><a href=papers/964723.383071.pdf>Chord</a>
+<td>Case Study: Chord<br>Chapter 5.3<br>
 
 <tr>
-<td>Feb 20
-<td>Chord / DNS<br>Chapter 5.3
+<td>Sep 30
+<td>Case Study: DNS<br>Chapter 5.3
 <td>What is Time?<br>Chapter 6.1<br><b><a href=a4>A4 Due: Naming</a></b>
 <td>Logical Clocks<br>Chapter 6.2
-<td><a href=papers/214451.214456.pdf>Distributed Snapshots</a>
 
 <tr>
-<td>Feb 27
+<td>Oct 7
 <td>Logical Clocks<br>Chapter 6.2
 <td>Vector Clocks<br>Chapter 6.2<br><b><a href=a5>A5 Due: Concurrency</a></b>
 <td>Catch Up / Review
-<td><a href=papers/byzantine.pdf>Byzantine Generals</a>
-
 
 <tr>
-<td>Mar 6
+<td>Oct 14
 <td><strong><a href=midterm>Midterm Exam</a></strong>
 <td>Mutual Exclusion<br>Chapter 6.3
 <td>Elections<br>Chapter 6.4<br><b><a href=project>Project Proposal Due</a></b>
 <td>
 
 <tr>
-<td>Mar 13
+<td>Oct 21
 <td colspan=4>
 <i>Spring Break</i>
 
 <tr>
-<td>Mar 20
+<td>Oct 28
 <td>Replication Strategies<br>Chapter 7.1
 <td>Data Centric Consistency<br>Chapter 7.2
 <td>Client Centric Consistency<br>Chapter 7.3
-<td><a href=papers/74851.74870.pdf>Leases</a>
 
 <tr>
-<td>Mar 27
+<td>Nov 4
 <td>Consistency Contd
 <td>Two Phase Commit<br>Chapter 8.5<br><b><a href=a6>A6 Due: Replication</a></b>
 <td>Chain Replication<br><a href=https://www.usenix.org/legacy/event/osdi04/tech/full_papers/renesse/renesse.pdf>(Paper)</a>
-<td><a href=papers/3369736.pdf>Keeping CALM</a>
 
 <tr>
-<td>Apr 3
+<td>Nov 11
 <td>Security - General<br>Chapter 9.1/9.3
 <td>Symmetric Key Systems<br>Chapter 9.2<br><b><a href=project>Progress Report Due</a></b>
-<td><i>Good Friday</i>
-<td>
+<td>Asymmetric Key Systems<br>Chapter 9.2
 
 <tr>
-<td>Apr 10
-<td><i>Easter Holiday</i>
-<td>Asymmetric Key Systems<br>Chapter 9.2
-<td>Asymmetric Contd.
-<tr>
-<td>Apr 17
+<td>Nov 18
 <td>Case Study: HTCondor<br><a href=papers/htcondor.pdf>(Paper)</a>
 <td>Case Study: Ceph<br><a href=papers/ceph.pdf>(Paper)</a></a>
 <td>Case Study: Kafka<br><a href=papers/kafka.pdf>(Paper)</a>
-<td>
+  
+<tr>
+<td>Nov 25
+<td>TBA
+<td><i>Thanksgiving</i>
+<td><i>Thanksgiving</i>
 
 <tr>
-<td>Apr 24
-<td>
-<ul>
-<li> <a href=https://docs.google.com/presentation/d/1HUVwycetH20E3Y-BroDj1bpkPTb4Hsw0E9lYAX1WOZM>Colin Thomas and Tony Alarcon - Privacy Preserving P2P Chat</a>
-<li> <A href=https://docs.google.com/presentation/d/1f3aJimzttoghVNR2Rdk-FU1M6dxhoZED>Weike Fang and Ziang Tong - Social Network</a>
-<li> <a href=https://docs.google.com/presentation/d/1mhmkNmPcfcCpSFWz8BkGE1Ec4r5thkUay66KgNxsZwU>Josh Chun and Ryan McCann - P2Play</a>
-</ul>
-
-<td>
-Project Talks:
-<ul>
-<li> <a href=https://docs.google.com/presentation/d/16ZTXhbN5RfBiAildjkwgjMeP8v99zSK-CAapSAGEEk0/edit#slide=id.p>Danny Minogue and Ruochen Sun - Reliable Chord</a>
-<li> <a href=https://docs.google.com/presentation/d/1aEGaOPTlvv4TwfqZeyY8pBHkJzH7yXhqKzK3OhcHCMY/edit#slide=id.p>Kerry Goodwine and Aton Lee - Persistent Chord</a>
-<li> <a href=https://docs.google.com/presentation/d/1VZLiPsP1ymMnSiBfgtXyvnIqEizZyah8mF0Ml1FL8bQ/edit>Luke Miller and Stefan Mesaric - Dungeon Crawl</a>
-</ul>
-
-<td>
-Project Talks:
-<ul>
-<li> <A href=https://docs.google.com/presentation/d/12pxDtSPxI6E-bJCHqh9JGPSN1PZ2rvVsHHKRuB3Ja_4/edit>Ben Egloff and Danielle Croft - P2P Hashtable</a>
-<li> <a href=https://docs.google.com/presentation/d/1X6YGxb9x91nnTc0xUacpC7NvelaPYA_lDDDjbFqimAM/edit>Jon Brockett and Patrick Pendergast - Oxygen Game</a>
-<li> <a href=https://docs.google.com/presentation/d/1Q155tJYQa7MQlMpNt2U7f3AHoLEAiPkNQ1LiIi7PEWE/edit>Drew Lair and Michael Bai - Multiplayer Rogue</a>
-<li> <a href=https://docs.google.com/presentation/d/1087fhPRWLU8M1Wn7HjCaeYLKgzajPwJ93bujQyam3uE/edit>John Lee and David Simonetti - Market Simulation</a>
-</ul>
-
-<td>
+<td>Dec 2
+<td> Project Talks
+<td> Project Talks
+<td> Project Talks
 
 <tr>
-<td>May 1
-<td>
-Project Talks:
-<ul>
-<li> <a href=https://docs.google.com/presentation/d/1hFI3TKBiGJSIGXqoP2mwJBkp3BkMgUgtA2URTBYi0Wk/edit?usp=sharing>Sasi Masasa and Ben Swiderski</a> - P2P Chat
-<li> <a href=https://docs.google.com/presentation/d/1aC4DDkk9I_HhOzz1RbLagl5YJQeQSYs7ZONQhH_UsKU/edit?usp=sharing>Sebastian Gutierrrez and Will McComis - PermiCloud</a>
-<li> <a href=https://docs.google.com/presentation/d/1hpn_Mv2E-J4UEiJOJ7pFOnzXYoxNbHJSYbVFeeJ1CM0/edit?usp=sharing>Trevor Komejii and Sergio Morales - Distributed Filesystem</a>
-<li> <a href=https://docs.google.com/presentation/d/1NqwUE2RJhrYFnG-kM6KN_ZTmDrOxv4cypRqDkhDFxD0/edit#slide=id.p>Jozef Porubcin and John Sullivan - SPIN Preservation</a>
-</ul>
+<td>Dec 9
+<td> Project Talks
+<td> Project Talks<td><a href=project>Final Project</a><br>Due Wed at 5PM</b>
+<td> <i>Study Day</i>
 
-<td>
-Project Talks:
-<ul>
-<li> <a href=https://docs.google.com/presentation/d/1M3FgvULyDlNwLsT2pFpXWShSPO_gl7Jdvdi1dPpsn1c/edit#slide=id.p>Jean Francois Boueri and Bridget Goodwine - Multiplayer Adventure</a>
-<li> <a href=https://docs.google.com/presentation/d/14PUjzd-w2a93HGHSR4dFX9x26QBSjCGD94mDzUYVsKE/edit#slide=id.g35f391192_00>Celina Ryan and Meghan Novak - Spoons</a>
-<li> <a href=https://docs.google.com/presentation/d/1Jmsxh6h3fyV40HZpKgxGjoKWmO1gBAnNrknddE_JF5k/edit#slide=id.g23c6bbb745b_0_321>Mia Manabat and Brett Wiseman - Distributed Chess (GREG)</a>
-<li> <a href=https://docs.google.com/presentation/d/15LCfAzFQefLnwxrIFqzjacjlpQH3lEMWyuQV06EN5l8/edit#slide=id.p>Matt Carbonaro and Danny Schermerhorn - DistSysLash</a>
-</ul>
-
-<b><a href=project>Final Project</a><br>Due Wed at 5PM</b>
-<td>
-<td>
-
-<tr><td colspan=5>
-<strong>Open Review - Thursday, May 4th at 1:00PM</strong>
-
-  <tr><td colspan=5>
-<strong>Final Exam - Thursday, May 11th at 8:00AM</strong>
+<tr>
+<td colspan=3><b>Final Exam<br>Saturday Dec 14th 1:45-3:45PM</b>
 </table>
 
 </body>
