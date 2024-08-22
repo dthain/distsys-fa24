@@ -6,6 +6,8 @@ layout: default
 
 ## Setup a Python 3 Environment
 
+## Note these instructions need updating for Fall 2024, please stay tuned.
+
 The five programming assignments must be written in Python 3 and run
 correctly on the CSE student machines.  (student10-13.cse.nd.edu)
 If you prefer to do your development work on your laptop or another
