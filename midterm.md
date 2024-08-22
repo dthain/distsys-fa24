@@ -1,15 +1,12 @@
-# Midterm Exam
+# Midterm Exams
 
-The midterm exam will be in class on Monday, March 6th.
-It will be about four pages long, and you can expect to
+Two midterm exams will be given, each one covering about one half of the class.
+Each exam will be about four pages long, and you can expect to
 be asked to describe fundamental properties of distributed systems,
 sketch the architecture and interaction of specific system designs,
 and detail the operation of distributed algorithms.
 
-The textbook chapters 1 through chapter 6.2, and also chapter 8.3 are
-fair game, along with any material from the project assignments.
-
-A selection of good topics to study.
+A selection of good topics to study for midterm one:
 
 - Chapter 1: Definitions, objectives, metrics, and limitations of distributed systems.
 - Chapter 2: Physical and logical architectures of distributed systems.
@@ -18,5 +15,12 @@ A selection of good topics to study.
 - Chapter 5: Naming properties and purposes, broadcast name lookups, centralized name servers, distributed naming systems.
 - Chapter 6.1: Definition of time and clocks, properties of electronic and astronomical clocks, time synchronization techniques.
 - Chapter 6.2: Logical clocks, totally ordered multicast, vector clocks
-
 - Specific systems: World Wide Web, Network File System, ZeroMQ, Domain Name System, Chord, Network Time Protocol
+
+And for midterm two:
+- Chapter 6.3 - Mutual Exclusion Algorithms.
+- Chapter 6.4 - Election Algorithms.
+- Chapter 7.1-7.3 - Replication strategies and consistency models.
+- Chapter 8.5 - Two phase commit.
+- Chapter 9.1-9.3 - Security principles, symmetric key systems, and asymmetric key systems.
+- Case studies: Chain replication, TaskVine, Ceph, Kafka

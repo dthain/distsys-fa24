@@ -99,7 +99,7 @@ that can be explored in a fixed amount of time.
 
 ## Milestones
 
-**Project Proposal - Friday, March 10th** -
+**Project Proposal - Friday, October 18th** -
 Turn in a document that describes the overall shape of your project.
 This should include the project partners, a high level description
 of the goals and structure of the system, identification of the key
@@ -115,7 +115,7 @@ The proposal should be about two full pages of text.  The instructor will follow
 you to make sure that the project is of appropriate size and difficulty.
 **Submit this via the Assignments tab in Canvas.**
 
-**Progess Report - Wednesday, April 5th** -
+**Progess Report - Friday, November 15th** -
 Turn in a detailed report describing the overall design of your
 system and your progress towards building it.  This will be a substantial
 report of some length that will require you to  think carefully about the
@@ -142,7 +142,7 @@ toward completion and any challenges or problems discovered along the way.
 
 **Class Presentation**
 
-- During the penultimate week of class, you
+- During the last two weeks of class, you
 will give a **ten** minute presentation to the whole class.
 The talk should include an overview of the goal or problem, the structure of your
 system, an example of how your system operates, and your results from evaluating
@@ -152,7 +152,7 @@ and edited slides, containing detailed diagrams of your system.
 
 - While this is a short talk, it will require careful preparation
 in order to be detailed, informative, and on time.  Practice multiple times
-together so that you can consistently finish between 9m30s and 9m59s.
+together so that you can consistently finish right on time.
 Following each talk, there will be **two** minutes for questions from the audience.
 In the meantime, the next group should come up to the podium and load the next
 slide deck.  
@@ -167,7 +167,7 @@ with the link no later than 5PM the day before the presentation.  (It's fine if 
 continue to update the presentation after that point, but I need the link to assemble
 the schedule.)
 
-**Final Submission - Wednesday, May 3rd at 5PM** - Turn in your code and the final paper.
+**Final Submission - Wednesday, Dec 11th at 5PM** - Turn in your code and the final paper.
 The code should be structured such that the instructor can build and
 execute it independently.  The paper should give an overview of the
 goal or the problem, a detailed description of the structure of your
@@ -181,6 +181,6 @@ is much too short; anything longer than fifteen pages is probably too long.
 
 **Submit your final report as a PDF via the Assignments tab in Canvas.
 The code for your final project should be checked into a (private) github
-repository that is shared with `dthain` and `tphung3`.  Clearly indicate
+repository that is shared with `dthain` and `ngandawa`.  Clearly indicate
 the URL of your repository on the first page of your report.**
 
