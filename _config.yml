@@ -1,2 +1,4 @@
 theme: jekyll-theme-modernist
 title: CSE 40771 - Distributed Systems
+github:
+  is_project_page: false
