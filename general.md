@@ -28,12 +28,11 @@ ssh <netID>@student10.cse.nd.edu
 
 Where `<netID>` is your Notre Dame netID. Use your account password as student machine login password.
 
-Then, download and install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) for Linux, if you haven't done so for another class:
+Then, download and install [Conda-Forge/Miniforge](https://github.com/conda-forge/miniforge/releases)) for Linux, if you haven't done so for another class:
 
 ```
-curl https://repo.anaconda.com/miniconda/Miniconda3-py39_4.10.3-Linux-x86_64.sh > miniconda.sh
-chmod 755 miniconda.sh
-./miniconda.sh
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+bash Miniforge3-$(uname)-$(uname -m).sh
 ```
 
 Note: please enter `yes` for the last step of installation (initialize), which adds `conda` to `PATH`.
