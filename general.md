@@ -6,8 +6,6 @@ layout: default
 
 ## Setup a Python 3 Environment
 
-## Note these instructions need updating for Fall 2024, please stay tuned.
-
 The five programming assignments must be written in Python 3 and run
 correctly on the CSE student machines.  (student10-13.cse.nd.edu)
 If you prefer to do your development work on your laptop or another
@@ -28,7 +26,7 @@ ssh <netID>@student10.cse.nd.edu
 
 Where `<netID>` is your Notre Dame netID. Use your account password as student machine login password.
 
-Then, download and install [Conda-Forge/Miniforge](https://github.com/conda-forge/miniforge/releases)) for Linux, if you haven't done so for another class:
+Then, download and install [Miniforge](https://github.com/conda-forge/miniforge/releases)) for Linux, if you haven't done so for another class:
 
 ```
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
@@ -44,7 +42,7 @@ which indicates you are in the `base` Conda environment.
 Now, create an environment `distsys` just for this class:
 
 ```
-conda create --name distsys python=3.9
+conda create --name distsys python=3.12
 ```
 
 Then, whenever you are working on this class, activate the `distsys`
@@ -53,7 +51,7 @@ environment, and you will have the right version of Python:
 ```
 (base) dthain@student10$ conda activate distsys
 (distsys) dthain@student10:~$ python -V
-Python 3.9.6
+Python 3.12
 ```
 
 To switch back to the default environment for another class,
