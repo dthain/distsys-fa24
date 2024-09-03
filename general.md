@@ -109,7 +109,7 @@ unless specifically requested.
 For example, the dropbox for assignment one is here:
 
 ```
-/escnfs/courses/sp24-cse-40771.01/dropbox/NETID/a1
+/escnfs/courses/fa24-cse-40771.01/dropbox/NETID/a1
 ```
 
 Substitute your netid and the appropriate assignment number as needed.
