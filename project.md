@@ -97,9 +97,8 @@ In this way, the difficulty of the "computer" player can be expanded to as many 
 Measure the time to reach a solution of a given quality, and the amount of the configuration space
 that can be explored in a fixed amount of time.
 
-## Milestones
+## Project Proposal - Friday, October 18th
 
-**Project Proposal - Friday, October 18th** -
 Turn in a document that describes the overall shape of your project.
 This should include the project partners, a high level description
 of the goals and structure of the system, identification of the key
@@ -115,7 +114,8 @@ The proposal should be about two full pages of text.  The instructor will follow
 you to make sure that the project is of appropriate size and difficulty.
 **Submit this via the Assignments tab in Canvas.**
 
-**Progess Report - Friday, November 15th** -
+## Progess Report - Friday, November 15th
+
 Turn in a detailed report describing the overall design of your
 system and your progress towards building it.  This will be a substantial
 report of some length that will require you to  think carefully about the
@@ -127,9 +127,11 @@ What are the essential challenges that must be overcome to deliver service to th
 If your project is similar to something that already exists (e.g. Bitcoin or Chord or DNS) then explain carefully
 how your work differs from the original.
 - **Architecture**.  Describe in detail how the internals of the system will work.
-Draw a detailed diagram of the system showing how the processes in the system relate,
-and examples of how they communicate in order to carry out the essential functions of
-the system.  Detail how the system handles names or identifiers: what do they mean,
+Draw a detailed diagram of the system showing how the processes in the system relate to each others.
+Give a detailed diagram showing how each of the essential functions of the system work.
+For example, if the three key operations of your system are insert/rename/delete,
+then show exactly how an insert, a rename, and a delete work.
+Describe how the system handles names or identifiers: what do they mean,
 how are they generated, how they are made unique, and how items in the system are discovered or located.
 Detail how the system is made reliable in the presence of failures: what happens
 if the network goes down or individual processes crash, and how the system responds.
@@ -140,34 +142,41 @@ screenshots to show that something is working.  Indicate your progress
 toward completion and any challenges or problems discovered along the way.
 **Submit this via the Assignments tab in Canvas.**
 
-**Class Presentation**
+## Class Presentation
 
-- During the last two weeks of class, you
+During the last two weeks of class, you
 will give a **ten** minute presentation to the whole class.
-The talk should include an overview of the goal or problem, the structure of your
-system, an example of how your system operates, and your results from evaluating
-the system so far.  Each member of the group should speak for part of the time.
+The talk should include an overview of the goal or problem,
+a spectacular diagram showing the detailed structure of your system,
+an example of how your system operates under normal conditions,
+an example of what happens when failures are encountered,
+and your results from evaluating the performance system so far.
+(Earlier presentations may be a little less complete in terms of performance evaluation,
+while later presentations should be almost completely done.  But everyone should have some results!)
+Each member of the group should speak for part of the time.
 Your talk should be accompanied by approximately 10 carefully designed
 and edited slides, containing detailed diagrams of your system.
 
-- While this is a short talk, it will require careful preparation
+While this is a short talk, it will require careful preparation
 in order to be detailed, informative, and on time.  Practice multiple times
 together so that you can consistently finish right on time.
 Following each talk, there will be **two** minutes for questions from the audience.
 In the meantime, the next group should come up to the podium and load the next
 slide deck.  
 
-- **Attendance will be taken** during project talks, and will count for a portion
+**Attendance will be taken** during project talks, and will count for a portion
 of your grade. Please show courtesy to your classmates by arriving on time and
 giving them your attention.
 
-- To ensure a minimum of technical difficulties, please prepare your slides using
+To ensure a minimum of technical difficulties, please prepare your slides using
 **Google Slides**, make sure it is readable by anyone with the link, and email Prof. Thain
 with the link no later than 5PM the day before the presentation.  (It's fine if you
 continue to update the presentation after that point, but I need the link to assemble
 the schedule.)
 
-**Final Submission - Wednesday, Dec 11th at 5PM** - Turn in your code and the final paper.
+## Final Submission - Wednesday, Dec 11th at 5PM
+
+Turn in your code and the final paper.
 The code should be structured such that the instructor can build and
 execute it independently.  The paper should give an overview of the
 goal or the problem, a detailed description of the structure of your
