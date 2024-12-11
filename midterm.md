@@ -1,4 +1,4 @@
-# Midterm Exams
+# Midterm and Final Exams
 
 Two midterm exams will be given, each one covering about one half of the class.
 Each exam will be about four pages long, and you can expect to
@@ -24,3 +24,7 @@ And for midterm two:
 - Chapter 8.5 - Two phase commit.
 - Chapter 9.1-9.3 - Security principles, symmetric key systems, and asymmetric key systems.
 - Case studies: Chain replication, TaskVine, Ceph, Kafka
+
+The final exam will be similar in format to the midterm exams,
+likely six pages long, and may address any of the above topics
+from both exams.
